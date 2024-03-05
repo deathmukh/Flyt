@@ -35,11 +35,11 @@ function easeOutQuad(x) {
       jawVelocity -= 0.0025;
     }
   
-    if (controls["w"]) {
+    if (controls["s"]) {
       pitchVelocity -= 0.0025;
     }
   
-    if (controls["s"]) {
+    if (controls["w"]) {
       pitchVelocity += 0.0025;
     }
   
@@ -78,4 +78,5 @@ function easeOutQuad(x) {
     camera.updateProjectionMatrix();
   
     planePosition.add(z.clone().multiplyScalar(-planeSpeed -turboSpeed));
+  
   }
