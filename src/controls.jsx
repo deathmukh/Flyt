@@ -27,11 +27,11 @@ function easeOutQuad(x) {
     if (Math.abs(pitchVelocity) > maxVelocity) 
       pitchVelocity = Math.sign(pitchVelocity) * maxVelocity;
   
-    if (controls["a"]) {
+    if (controls["d"]) {
       jawVelocity += 0.0025;
     }
   
-    if (controls["d"]) {
+    if (controls["a"]) {
       jawVelocity -= 0.0025;
     }
   

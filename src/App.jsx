@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unknown-property */
-// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { PerspectiveCamera, Environment } from "@react-three/drei";
 import { EffectComposer, HueSaturation } from "@react-three/postprocessing";
